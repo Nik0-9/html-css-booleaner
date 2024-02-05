@@ -3,7 +3,7 @@ body{
 }
 
 header{
-    height: 10vh;
+    height: 30%;
     background-color: #4485D0;
     background-image: url('../img/pattern.png');
 }
@@ -12,4 +12,42 @@ header{
     padding-top: 3.5%;
     width: 10%;
     background-position: bottom; 
+}
+
+.scritto{
+    color: lightgray;
+}
+
+.autore{
+    color: #2FAFE7;
+}
+
+.data{
+    color: lightgray;
+    font-size: 90%;
+}
+
+.photo-detail{
+    font-size: 90%;
+}
+
+.paragraph{
+    margin-bottom: 30px;
+}
+
+thead{
+    color: white;
+    background-color: #4485D0;
+}
+
+.dim{
+    width: 30%;
+}
+
+.on{
+    background-color: #2FAFE7;
+}
+
+td{
+    padding: 15px;
 }
