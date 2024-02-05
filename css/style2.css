@@ -1,0 +1,93 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 50%;
+    background-color: #4485D0;
+    background-image: url('../img/pattern.png');
+}
+
+.logo-head{
+    margin-left: 30px;
+    margin-right: 30px;
+    padding-top: 3.5%;
+    width: 10%;
+    background-position: bottom; 
+}
+
+main{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+aside{
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+.scritto{
+    color: lightgray;
+}
+
+.autore{
+    color: #2FAFE7;
+}
+
+.data{
+    color: lightgray;
+    font-size: 90%;
+}
+
+.photo-detail{
+    font-size: 90%;
+}
+
+.paragraph{
+    margin-bottom: 30px;
+}
+
+ul{
+    padding: 20px;
+}
+
+thead{
+    color: white;
+    background-color: #4485D0;
+}
+
+th{
+    width: 30%;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.on{
+    background-color: #2FAFE7;
+}
+
+td{
+    padding: 15px;
+}
+
+h3{
+    color: gray;
+}
+
+.title-aside{
+    font-size: 30px;
+    color: white;
+    background-image: url('/img/monitor.jpg');
+    background-repeat: no-repeat;
+    width: 312px;
+    height: 220px;
+}
+
+.title-aside2{
+    font-size: 30px;
+    color: white;
+    background-image: url('/img/graph.jpg');
+    background-repeat: no-repeat;
+    width: 312px;
+    height: 220px;
+}
