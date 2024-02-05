@@ -1,0 +1,15 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    height: 10vh;
+    background-color: #4485D0;
+    background-image: url('../img/pattern.png');
+}
+
+.logo-head{
+    padding-top: 3.5%;
+    width: 10%;
+    background-position: bottom; 
+}
