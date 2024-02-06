@@ -2,16 +2,21 @@ body{
     font-family: 'Roboto', sans-serif;
 }
 
+*{
+    padding: 0; 
+    box-sizing: border-box;
+}
+
 header{
-    height: 18vh;
+    padding-top: 30px;
     background-color: #4485D0;
     background-image: url('../img/pattern.png');
 }
 
-.logo-head{
+#logo img{
     margin-left: 3%;
     margin-right: 3%;
-    padding-top: 6%;
+    margin-top: 5%;
     width: 15%;
 }
 
@@ -25,21 +30,12 @@ aside{
     margin-right: 3%;
 }
 
-.scritto{
+.text-lightgray{
     color: lightgray;
 }
 
-.autore{
+.text-lightblue{
     color: #2FAFE7;
-}
-
-.data{
-    color: lightgray;
-    font-size: 90%;
-}
-
-.photo-detail{
-    font-size: 85%;
 }
 
 .paragraph{
@@ -61,20 +57,17 @@ th{
     padding-left: 15px;
 }
 
-.on{
+.odd{
     background-color: rgba(0,255,255,0.3);
 }
 
 table{
+    border-spacing: 0;
     margin-bottom: 40px;
 }
 
 td{
     padding: 15px;
-}
-
-h2{
-    color: gray;
 }
 
 .title-aside{

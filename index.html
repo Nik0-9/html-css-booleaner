@@ -12,21 +12,24 @@
 <body>
     <!--Intestazione con sfondo e logo Booleaner-->
     <header>
-        <img class="logo-head" src="/img/logo.svg" alt="Logo: The Booleaner">
+        <div id="logo">
+             <img src="/img/logo.svg" alt="Logo: The Booleaner">
+        </div>
     </header>
     <!--Titolo con immagini e descrizione-->
     <main>
         <h1>Internet deve essere al servizio del "bene pubblico": il manifesto di Tim Berners-Lee</h1>
-        <span class="scritto">Scritto da </span>
-        <span class="autore">The Booleaner</span> 
+        <span class="text-lightgray">Scritto da </span>
+        <span class="text-lightblue">The Booleaner</span> 
         <br>
-        <span class="data">il 05/02/2024</span>
-        <div>
+        <small class="text-lightgray">il 05/02/2024</small>
+        <figure>
             <img src="/img/tim-1.jpg" alt="immagine 1 Tim">
             <img src="/img/tim-2.jpg" alt="immagine 2 Tim">
-        </div>
-        <div class="photo-detail">1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen</div>
-        <div class="photo-detail">2nd Photo: Wikimedia, by Paul Clarke</div>
+        </figure>
+        <figcaption>1st Photo: John S. and James L. Knight Foundation, by Scott Henrichsen <br>
+            2nd Photo: Wikimedia, by Paul Clarke</figcaption>
+        
         <!-- Primo paragrafo-->
         <p class="paragraph">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Beatae, voluptatum. Aperiam, neque natus eos officiis dolorem nobis corrupti possimus sequi aut ea! Facere officiis blanditiis sed eveniet consectetur corporis veniam, atque, <mark>vero inventore aliquam ullam expedita delectus odio a perferendis ea</mark>, commodi dolore quo. Harum quae ratione corrupti eos inventore quos doloremque laboriosam voluptatem quo odit culpa nulla veritatis ullam enim accusantium sed alias id porro facere quaerat delectus accusamus, quasi unde? Dignissimos aut tempora aspernatur rem quasi molestias incidunt eligendi atque commodi possimus. Qui recusandae deleniti sunt quaerat odit eligendi sapiente iure, voluptatem quae quibusdam quis saepe, suscipit similique?</p>
         <!--Unordered list-->
@@ -42,13 +45,13 @@
         </ul>
         <!--Tabella-->
         <table>
-            <thead>
-                <th class="dim">lorem ipsum dolor</th>
-                <th class="dim">lorem ipsum dolor</th>
-                <th class="dim"> lorem ipsum dolor</th>
+            <thead class="no-border">
+                <th>lorem ipsum dolor</th>
+                <th>lorem ipsum dolor</th>
+                <th> lorem ipsum dolor</th>
             </thead>
             <tbody>
-                <tr class="on">
+                <tr class="odd">
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ullam ex praesentium doloremque in explicabo aspernatur quisquam eum ratione eius veritatis animi nulla, id quas, facere qui labore, quae nam.</td>
@@ -58,7 +61,7 @@
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ullam ex praesentium doloremque in explicabo aspernatur quisquam eum ratione eius veritatis animi nulla, id quas, facere qui labore, quae nam.</td>
                 </tr>
-                <tr class="on">
+                <tr class="odd">
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem, ipsum dolor.</td>
                     <td>Lorem ipsum, dolor sit amet consectetur adipisicing elit. A ullam ex praesentium doloremque in explicabo aspernatur quisquam eum ratione eius veritatis animi nulla, id quas, facere qui labore, quae nam.</td>
@@ -70,7 +73,7 @@
     </main>
     <!--Sezione potrebbe interessarti-->
     <aside>
-        <h2>Potrebbe interessarti</h2>
+        <h2 class="text-lightgray">Potrebbe interessarti</h2>
         <div class="title-aside">lorem ipsum dolor</div>
         <div class="title-aside2">lorem ipsum dolor</div>
 
